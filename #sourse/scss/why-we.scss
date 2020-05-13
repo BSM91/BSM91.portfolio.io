@@ -1,0 +1,58 @@
+.why-we {
+    background-color: #FEE382;
+    min-height: 496px;
+    text-align: center;
+
+    .title {
+        position: relative;
+        width: 227px;
+        margin: 0 auto;
+        padding-top: 50px;
+    
+        h2 {
+            font-size: 48px;
+            line-height: 72px;
+            text-align: center;
+    
+            &:after {
+                display: block; 
+                position: absolute; 
+                content: ""; 
+                height: 3px; 
+                width: 64px;
+                top: 140px;
+                background-color: #282630; 
+            }
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 60px;
+        max-width: 100%;
+        flex-wrap: wrap;
+
+        .box {
+            padding: 40px;
+
+            i {
+                font-size: 58px;
+            }
+            
+            .title {
+                font-size: 22px;
+                padding: 26px 10px 10px;
+            }
+
+            p {
+                text-align: center;
+                width: 250px;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+    }
+}

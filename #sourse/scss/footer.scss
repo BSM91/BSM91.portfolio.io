@@ -1,0 +1,96 @@
+footer {
+    background-color: #282630;
+    min-height: 202px;
+    padding: 40px 56px 0px 56px;
+
+    @media screen and (max-width: 882px) {
+        padding: 30px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 36px;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 882px) {
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .logo {
+
+            i {
+                color: #FAFAFA;
+                font-size: 36px;
+            }
+        }
+    
+        .menu {
+            padding-left: 150px;
+
+            @media screen and (max-width: 882px) {
+                padding: 40px;
+            }
+
+            @media screen and (max-width: 400px) {
+                text-align: center;
+            }
+    
+            a {
+                font-family: Cabin;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                color: #FAFAFA;
+                text-decoration: none;
+                margin-right: 80px;
+                padding: 5px;
+
+                @media screen and (max-width: 882px) {
+                    margin-right: 0;
+                    padding: 20px;
+                }
+    
+                &:hover {
+                    border-bottom: 1px solid #FAFAFA;
+                }
+            }
+        }
+    
+        .order-button {
+    
+            button {
+                background-color: #FEE382;
+                border: 1px solid #FEE382;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: 0.03em;
+                padding: 9px 19px;
+                border-radius: 25px;
+                transition: .5s;
+        
+                &:hover {
+                    cursor: pointer;
+                    transition: .5s;
+                    transform: scale(1.1);
+                }
+        
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #65636A;
+        margin-top: 32px;
+    }
+}
